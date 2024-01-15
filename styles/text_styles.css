@@ -1,0 +1,73 @@
+.tahoma{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+    line-height: 30px;
+}
+.sales{
+    font-size: 18px;
+    color: red;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    width: 250px;
+    line-height: 25px;
+}
+.pro{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.dev{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    width: 340px;
+}
+.get_started{
+    background-color: rgb(37, 131, 63);
+    width: 100px;
+    height: 33px;
+    color: white;
+    border-width: 1px;
+    border-color: rgb(32, 120, 57);
+    margin-right: 4px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.shop{
+    font-family: arial;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    width: 390px;
+
+}
+.apple{
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.learn{
+    line-height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    width: 390px;
+    cursor: pointer;
+    color: rgb(13, 64, 166);
+}
