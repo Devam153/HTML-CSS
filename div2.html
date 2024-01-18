@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>div_challenge</title>
+    <style>
+      .cat {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        vertical-align: middle;
+        margin-right: 8px;
+      }
+      .happen {
+        border-width: 0px;
+        font-size: 15px;
+        width: 230px;
+      }
+      .tweet-button {
+        background-color: rgb(29, 155, 240);
+        vertical-align: middle;
+        border-radius: 18px;
+        color: white;
+        border: 0px;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+      .tweet {
+        margin: 30px;
+        width: 370px;
+        height: 50px;
+        padding: 10px;
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+      }
+      .hi {
+        width: 130px;
+        height: 130px;
+      }
+      .name {
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 2px;
+        margin-left: 5px;
+      }
+      .friends {
+        margin-top: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: rgb(87, 83, 83);
+        margin-bottom: 4px;
+        margin-left: 5px;
+      }
+      .Friend {
+        margin-left: 5px;
+        margin-top: 4px;
+        background-color: rgb(69, 55, 225);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 6px 9px 6px 9px;
+        font-size: 12px;
+        border-width: 0px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .Friend:hover {
+        opacity: 0.8;
+      }
+      .Friend:active {
+        opacity: 0.6;
+      }
+      .facebook-cat1 {
+        width: 130px;
+        height: 215px;
+        display: inline-block;
+        margin: 10px 4px 10px 5px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <img class="cat" src="thumbnails/1705426915751.jpg" alt="" />
+      <input class="happen" type="text" placeholder="What's happening?" />
+      <button class="tweet-button">Tweet</button>
+    </div>
+    <hr />
+    <div class="facebook-cat1">
+      <img src="thumbnails/1705426915751.jpg" alt="" class="hi" />
+      <p class="name">Oliver</p>
+      <p class="friends">2 mutual friends</p>
+      <button class="Friend">Add Friend</button>
+    </div>
+    <div class="facebook-cat1">
+      <img src="thumbnails/google.png" alt="" class="hi" />
+      <p class="name">Mimi</p>
+      <p class="friends">3 mutual friends</p>
+      <button class="Friend">Add Friend</button>
+    </div>
+    <div class="facebook-cat1">
+      <img src="thumbnails/thumbnail-2.webp" alt="" class="hi" />
+      <p class="name">Rex</p>
+      <p class="friends">5 mutual friends</p>
+      <button class="Friend">Add Friend</button>
+    </div>
+    <div class="facebook-cat1">
+      <img src="thumbnails/thumbnail-1.webp" alt="" class="hi" />
+      <p class="name">Fluff</p>
+      <p class="friends">0 mutual friends</p>
+      <button class="Friend">Add Friend</button>
+    </div>
+  </body>
+</html>
