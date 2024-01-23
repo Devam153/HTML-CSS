@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flexbox exercise</title>
+
+</head>
+
+<body>
+    <div style="display: flex;
+    flex-direction: row;">
+        <div style="background-color: lightblue;
+        width: 200px;">200px</div>
+        <div style="background-color: lightpink;
+        width: 75px;">75px</div>
+    </div>
+
+    <hr>
+    <div style="display: flex;
+        flex-direction: row;">
+        <div style="background-color: lightblue;
+            width: 50px;">item1</div>
+        <div style="background-color: lightpink;
+            flex: 1;">item2</div>
+        <div style="background-color: lightblue;
+                                width: 75px;">item3</div>
+    </div>
+
+    <hr>
+
+    <div style="display: flex;
+                flex-direction: row;
+                justify-content: space-between;">
+        <div style="background-color: lightblue;
+                    ">item1</div>
+        <div style="background-color: lightpink;
+                    ">item2</div>
+        <div style="background-color: lightblue;
+                    ">item3</div>
+        <div style="background-color: lightpink;
+                    ">item2</div>
+    </div>
+
+    <hr>
+
+    <div style="display: flex;
+            flex-direction: row;
+            height: 50px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: gray;
+            justify-content: space-between;
+            align-items: center;
+            ">
+        <div style="background-color: lightblue;
+                ">item1</div>
+        <div style="background-color: lightpink;
+                ">item2</div>
+    </div>
+
+    <hr>
+
+    <div style="display: flex;
+    justify-content: space-between;
+    height: 50px;
+    flex-direction: row;
+    background-color: rgb(156, 50, 255);
+    align-items: center;">
+        <div>
+            <button style="background-color: rgb(156, 50, 255);
+            color: white;
+            margin-left: 5px;
+            border-width: 0px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 6px;">
+                Home
+            </button>
+        </div>
+        <div>
+            <input type="text" placeholder="Search" style="background-color: white;
+            flex: 1;
+            border-width: 0;
+            height: 30px;
+            border-radius: 25px;
+            margin-left: 50px;
+            margin-right: 50px;">
+        </div>
+        <div><button style="background-color: rgb(156, 50, 255);
+            color: white;
+            border-width: 1px;
+            font-size: 15px;
+            font-weight: 500;
+            border-color: white;
+            cursor: pointer;
+            margin-right: 10px;
+            padding: 6px 10px 6px 10px;">Download</button></div>
+
+    </div>
+</body>
+
+</html>
