@@ -1,86 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>disply_block_challenge</title>
-    <style>
-      .input {
-        height: 25px;
-        width: 100px;
-        border-radius: 5px;
-        border-width: 1px;
-      }
-      .email {
-        margin-top: 5px;
-        display: block;
-        height: 25px;
-        width: 210px;
-        border-radius: 5px;
-        border-width: 1px;
-      }
-      .sign-up {
-        margin-top: 5px;
-        background-color: rgb(61, 100, 193);
-        color: white;
-        font-size: 14px;
-        height: 30px;
-        width: 215px;
-        border-radius: 5px;
-        border-width: 1px;
-        margin-bottom: 10px;
-      }
-      .request {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-          sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-      }
-      .input2 {
-        background-color: rgb(238, 238, 238);
-        height: 30px;
-        width: 280px;
-        display: block;
-        margin-bottom: 5px;
-        border-width: 0px;
-        color: black;
-        font-family: "Courier New", Courier, monospace;
-      }
-      .now {
-        background-color: black;
-        color: white;
-        border-width: 0px;
-        height: 35px;
-        width: 115px;
-        cursor: pointer;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        margin-top: 15px;
-      }
-      .Schedule {
-        background-color: rgb(238, 238, 238);
-        color: black;
-        border-width: 0px;
-        height: 35px;
-        width: 115px;
-        cursor: pointer;
-        margin-right: 10px;
-        margin-bottom: 20px;
-        margin-top: 15px;
-        font-size: 12px;
-      }
-    </style>
-  </head>
-  <body>
-    <input class="input" type="text" placeholder="First Name" />
-    <input class="input" type="text" placeholder="Last Name" />
-    <input class="email" type="text" placeholder="Email" />
-    <button class="sign-up">Sign Up</button>
-    <hr />
-    <p class="request">Request a ride now</p>
-    <input type="text" placeholder="Enter pickup location" class="input2" />
-    <input type="text" placeholder="Enter destination" class="input2" />
-    <button class="now">Request Now</button>
-    <button class="Schedule">Schedule for later</button>
-    <hr />
-  </body>
+
+<head>
+  <title>disply_block_challenge</title>
+  <style>
+    .input {
+      height: 25px;
+      width: 100px;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+
+    .email {
+      margin-top: 5px;
+      display: block;
+      height: 25px;
+      width: 210px;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+
+    .sign-up {
+      margin-top: 5px;
+      background-color: rgb(61, 100, 193);
+      color: white;
+      font-size: 14px;
+      height: 30px;
+      width: 215px;
+      border-radius: 5px;
+      border-width: 1px;
+      margin-bottom: 10px;
+    }
+
+    .request {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .input2 {
+      background-color: rgb(238, 238, 238);
+      height: 30px;
+      width: 280px;
+      display: block;
+      margin-bottom: 5px;
+      border-width: 0px;
+      color: black;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .input2::placeholder {
+      padding-left: 10px;
+    }
+
+    .now {
+      background-color: black;
+      color: white;
+      border-width: 0px;
+      height: 35px;
+      width: 115px;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+    }
+
+    .Schedule {
+      background-color: rgb(238, 238, 238);
+      color: black;
+      border-width: 0px;
+      height: 35px;
+      width: 115px;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <input class="input" type="text" placeholder="First Name" />
+  <input class="input" type="text" placeholder="Last Name" />
+  <input class="email" type="text" placeholder="Email" />
+  <button class="sign-up">Sign Up</button>
+  <hr />
+  <p class="request">Request a ride now</p>
+  <input type="text" placeholder="Enter pickup location" class="input2" />
+  <input type="text" placeholder="Enter destination" class="input2" />
+  <button class="now">Request Now</button>
+  <button class="Schedule">Schedule for later</button>
+  <hr />
+</body>
+
 </html>
